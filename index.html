@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header section  -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="logo">Alexander</a>
+          <ul class="site-nav">
+            <li class="item">
+              <a href="#home" class="link active">Home</a>
+            </li>
+            <li class="item">
+              <a href="#about" class="link">About</a>
+            </li>
+            <li class="item">
+              <a href="#projects" class="link">Projects</a>
+            </li>
+            <li class="item">
+              <a href="#contact" class="link">Contact</a>
+            </li>
+            <li class="item"><i class="bx bx-moon" id="toggleDark"></i></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Home section  -->
+      <section class="section" id="home">
+        <div class="container">
+          <div class="content">
+            <div class="home">
+              <div class="home-content">
+                <h1 class="hero-title">Hi, I'm Alexandr Piniuhin</h1>
+                <h2 class="text-animate">Frontend Developer</h2>
+                <p class="text-content">
+                  I really enjoy creating projects that make everyday life and
+                  business easier, more productive and more convenient. I am
+                  looking for a permanent job in a company that strives to be a
+                  leader.
+                </p>
+                
+                <div class="btn">
+                  <button class="button primary" type="button" id="openModal"><a class="btn-link" href="./img/my-cv.pdf" download>Download C.V</a></button>
+                </div>
+
+                <div class="home-sci">
+                  <a class="sci-link" href="https://github.com/Piniuhin"><i class='bx bxl-github'></i></i></a>
+                  <a class="sci-link"
+                    href="https://www.instagram.com/alexanderpinyugin/?igsh=MWZldXA1MnB5ZXJ2Zw%3D%3D"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                  <a class="sci-link" href="https://www.linkedin.com/in/alexander-piniuhin-33193a229/"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+              <img class="home-img" src="./img/hero3.jpg" alt="" width="420" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About section  -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="content">
+            <div class="row">
+              <div class="about-img">
+                <img class="img" src="./img/Alexander.jpg" alt="Alexander" width="520" height="594"/>
+              </div>
+              <div class="about-content">
+                <h2 class="section-title">
+                  About <span class="section_title-second">Me</span>
+                </h2>
+                <p class="text-content">
+                  Adaptability is one of my strengths, and I am always eager to
+                  learn and adapt to the latest technologies and tools within the
+                  development landscape. My effective communication skills enable me
+                  to collaborate harmoniously with team members, fostering a
+                  productive and creative working environment.
+                </p>
+                <ul class="tab-taitles">
+                  <li>
+                    <h3 class="about-title" id="skills">Skills</h3>
+                    <ul class="about-list">
+                      <li class="about-item"><p class="about-text">HTML 5</p></li>
+                      <li class="about-item"><p class="about-text">CSS 3</p></li>
+                      <li class="about-item"><p class="about-text">SCSS</p></li>
+                      <li class="about-item">
+                        <p class="about-text">Java Script</p>
+                      </li>
+                      <li class="about-item"><p class="about-text">GIT</p></li>
+                      <li class="about-item">
+                        <p class="about-text">Responsive</p>
+                      </li>
+                      <li class="about-item"><p class="about-text">Webpack</p></li>
+                      <li class="about-item"><p class="about-text">Parcel</p></li>
+                      <li class="about-item"><p class="about-text">Rest API</p></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <h3 class="about-title">Experience</h3>
+                    <ul class="about-list">
+                      <li class="about-item">
+                        <p class="about-text">Self-motivated</p>
+                      </li>
+                      <li class="about-item"><p class="about-text">Creative</p></li>
+                      <li class="about-item"><p class="about-text">Diligent</p></li>
+                      <li class="about-item"><p class="about-text">Teamwork</p></li>
+                      <li class="about-item">
+                        <p class="about-text">Open-minded</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <h3 class="about-title">Education</h3>
+                    <ul class="about-list">
+                      <li class="about-item">
+                        <h4 class="education-title">
+                          <a href="https://goit.global/ua/" class="about-link" target="_blank">GoIT Academy</a>
+                        </h4>
+                        <p class="about-text">Fullstack Developer</p>
+                      </li>
+                      <li class="about-item">
+                        <h4 class="education-title">
+                          <a href="https://old-zdia.znu.edu.ua/index.php?lang=en" class="about-link"
+                            target="_blank">Zaporizhzhia State Engineering Academy</a
+                          >
+                        </h4>
+                        <p class="about-text">
+                          Metallurgy of ferrous metals and labor protection
+                        </p>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Projects section  -->
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="content">
+            <div class="projects-content">
+              <h2 class="section-title">
+                My <span class="section_title-second">Work</span>
+              </h2>
+              <ul class="projects-list">
+                <li class="pro-item"><a href="http://piniuhin.github.io/WebStudio/" class="pro-link" target="_blank"><div class="projects-thumb"><img src="./img/WebStudio.jpg" alt="projects image" width="440" height="460" class="projects-img"><div class="projects-overlay"><p class="overlay-text"></p></div></div></a></li>
+                <li class="pro-item"><a href="http://piniuhin.github.io/BarberShop/" class="pro-link" target="_blank"><div class="projects-thumb"><img src="./img/BarberShop.jpg" alt="projects image" width="440" height="460" class="projects-img"><div class="projects-overlay"><p class="overlay-text"></p></div></div></a></li>
+                <li class="pro-item"><a href="http://piniuhin.github.io/Ice-cream/" class="pro-link" target="_blank"><div class="projects-thumb"><img src="./img/IceCream.jpg" alt="projects image" width="440" height="460" class="projects-img"><div class="projects-overlay"><p class="overlay-text"></p></div></div></a></li>
+                <li class="pro-item"><a href="http://andriypetryshyn.github.io/Team-Project-FoodSta/?email=" class="pro-link" target="_blank"><div class="projects-thumb"><img src="./img/FoodSta.jpg" alt="projects image" width="440" height="460" class="projects-img"><div class="projects-overlay"><p class="overlay-text"></p></div></div></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section  -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="content">
+            <div class="contact-section">
+
+                <form class="form-contact" action="" id="contact-form">
+                  <h2 class="section-title">
+                    Contact <span class="section_title-second">Me!</span>
+                  </h2>
+                  <label class="input-field">
+                    <input type="text" name="to_name" placeholder="Full Name" class="form-input" required />
+                    <span class="focus"></span>
+                  </label>
+      
+                  <label class="input-field">
+                    <input type="email" name="from_name" placeholder="Email Address" class="form-input" required />
+                  </label>
+                  <!-- 'required' указывает, что это поле обязательно для заполнения. -->
+        
+                    <label class="input-field">
+                      <input type="tel" name="tel" placeholder="Mobile Number" class="form-input" required /> 
+                    </label>
+                  
+                <label class="textarea-field">
+                  <textarea
+                    name="message"
+                    id=""
+                    cols="30"
+                    rows="10"
+                    placeholder="Your Message"
+                    class="textarea-comment"
+                    required
+                  ></textarea>
+                </label>
+                <p class="contact-message" id="contact-message"></p>
+                <button type="submit" class="button" value="Send">Submit</button>
+              </form>
+ 
+              
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer section  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p class="footer-logo"><a href="#" class="logo">Alexander</a></p>
+      
+          <div class="footer-sci">
+            <a class="sci-link" href="https://github.com/Piniuhin"><i class='bx bxl-github'></i></i></a>
+            <a class="sci-link"
+              href="https://www.instagram.com/alexanderpinyugin/?igsh=MWZldXA1MnB5ZXJ2Zw%3D%3D"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a class="sci-link" href="https://www.linkedin.com/in/alexander-piniuhin-33193a229/"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+          </div>
+    
+          <p class="footer-text">&copy; 2024 copyright all rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="/js/main.js"></script>
+    
+  </body>
+</html>
